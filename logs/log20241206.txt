@@ -1,0 +1,980 @@
+2024-12-06 11:03:43.132 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:03:44.197 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:03:44.199 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:03:44.325 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:03:44.327 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:03:44.330 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:03:46.905 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:03:47.755 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 897.052ms
+2024-12-06 11:03:47.835 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:03:47.836 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:03:47.841 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:03:47.861 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 25.6373ms
+2024-12-06 11:03:47.923 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 85.439ms
+2024-12-06 11:03:48.211 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 369.5294ms
+2024-12-06 11:03:48.429 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:03:48.726 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 297.9474ms
+2024-12-06 11:03:50.340 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:03:50.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 5.632ms
+2024-12-06 11:03:50.997 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:03:51.025 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.1062ms
+2024-12-06 11:03:55.378 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/register - application/json 131
+2024-12-06 11:03:55.393 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:03:55.396 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:03:55.629 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:03:55.772 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BankApplication.Models.account.RegisterRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:03:56.680 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-06 11:03:56.739 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Register (BankApplication) in 944.9434ms
+2024-12-06 11:03:56.745 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:03:56.756 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/register - 500 null application/problem+json; charset=utf-8 1377.7385ms
+2024-12-06 11:04:03.834 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/register - application/json 119
+2024-12-06 11:04:03.842 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:04:03.843 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:04:03.847 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:04:03.851 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BankApplication.Models.account.RegisterRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:04:03.895 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-06 11:04:03.905 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Register (BankApplication) in 49.2129ms
+2024-12-06 11:04:03.913 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:04:03.955 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/register - 500 null application/problem+json; charset=utf-8 121.2071ms
+2024-12-06 11:07:42.677 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:07:43.374 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:07:43.376 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:07:43.490 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:07:43.493 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:07:43.494 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:07:45.372 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:07:46.457 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 1108.6755ms
+2024-12-06 11:07:46.589 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:07:46.598 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:07:46.660 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:07:46.679 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 81.382ms
+2024-12-06 11:07:46.741 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 151.5199ms
+2024-12-06 11:07:46.809 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.7525ms
+2024-12-06 11:07:47.236 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:07:47.461 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.528ms
+2024-12-06 11:07:48.326 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:07:48.332 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 5.8643ms
+2024-12-06 11:07:49.448 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:07:49.472 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.375ms
+2024-12-06 11:07:55.341 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/register - application/json 119
+2024-12-06 11:07:55.362 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:07:55.364 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:07:55.582 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:07:55.725 +04:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(BankApplication.Models.account.RegisterRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:07:56.648 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-06 11:07:56.703 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Register (BankApplication) in 964.833ms
+2024-12-06 11:07:56.706 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Register (BankApplication)'
+2024-12-06 11:07:56.713 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/register - 500 null application/problem+json; charset=utf-8 1380.5823ms
+2024-12-06 11:17:04.962 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:17:05.702 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:17:05.704 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:17:05.871 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:17:05.894 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:17:05.916 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:17:07.754 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:17:09.105 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 1375.8407ms
+2024-12-06 11:17:09.356 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:17:09.355 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:17:09.358 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:17:09.388 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 33.6776ms
+2024-12-06 11:17:09.420 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 64.3585ms
+2024-12-06 11:17:09.820 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 462.2732ms
+2024-12-06 11:17:10.008 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:17:10.250 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 238.6878ms
+2024-12-06 11:17:12.927 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:17:12.938 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 12.2735ms
+2024-12-06 11:17:13.436 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:17:13.469 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.8383ms
+2024-12-06 11:17:32.385 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:17:32.421 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:17:32.431 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:17:32.677 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:17:32.775 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:17:36.982 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:17:40.533 +04:00 [INF] Executed DbCommand (462ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:17:41.488 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:17:41.572 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:17:41.624 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:17:41.698 +04:00 [INF] Executed DbCommand (40ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:17:41.724 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:17:41.740 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:17:41.752 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:17:41.868 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:17:42.806 +04:00 [INF] Executed DbCommand (492ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:17:43.022 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:17:43.102 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 10300.2872ms
+2024-12-06 11:17:43.110 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:17:43.139 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 10754.3494ms
+2024-12-06 11:18:09.209 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:18:09.493 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:09.561 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:18:09.583 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:18:10.008 +04:00 [INF] Executed DbCommand (156ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:18:10.015 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:18:10.026 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:18:10.052 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 487.1648ms
+2024-12-06 11:18:10.059 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:10.062 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 860.2053ms
+2024-12-06 11:18:14.667 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:18:14.768 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:14.771 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:18:14.782 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:18:14.819 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:18:14.834 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:18:14.838 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:18:14.841 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 64.595ms
+2024-12-06 11:18:14.847 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:14.852 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 185.1275ms
+2024-12-06 11:18:16.696 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:18:16.707 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:16.711 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:18:16.722 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:18:16.728 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:18:16.734 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:18:16.738 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:18:16.742 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 27.5335ms
+2024-12-06 11:18:16.745 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:18:16.747 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 51.2002ms
+2024-12-06 11:18:45.968 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:18:46.330 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:18:46.331 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:18:46.445 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:18:46.449 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:18:46.451 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:18:49.294 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:18:50.874 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 1595.2676ms
+2024-12-06 11:18:51.122 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:18:51.123 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:18:51.123 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:18:51.157 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 34.1592ms
+2024-12-06 11:18:51.177 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 55.1236ms
+2024-12-06 11:18:51.358 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.5724ms
+2024-12-06 11:18:51.835 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:18:52.056 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.7213ms
+2024-12-06 11:19:08.951 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:19:08.975 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:19:08.977 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:19:09.179 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:19:09.275 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:19:11.794 +04:00 [WRN] The decimal property 'Balance' on entity type 'CustomerEntity' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-06 11:19:14.640 +04:00 [INF] Executed DbCommand (389ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:19:15.593 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:19:15.685 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:19:15.753 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:19:15.816 +04:00 [INF] Executed DbCommand (25ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:19:15.842 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:19:15.858 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:19:15.876 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:19:15.984 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:19:16.641 +04:00 [INF] Executed DbCommand (228ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:19:16.891 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:19:16.956 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 7659.4884ms
+2024-12-06 11:19:16.961 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:19:16.989 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 8040.1591ms
+2024-12-06 11:19:36.150 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:19:36.331 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:36.346 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:19:36.378 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:19:36.692 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:19:36.699 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:19:36.703 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:19:36.720 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 369.8729ms
+2024-12-06 11:19:36.726 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:36.732 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 582.2183ms
+2024-12-06 11:19:41.957 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:19:41.983 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:41.986 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:19:41.999 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:19:42.038 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:19:42.049 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:19:42.053 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:19:42.058 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 68.1493ms
+2024-12-06 11:19:42.068 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:42.071 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 114.4774ms
+2024-12-06 11:19:46.914 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/90 - null null
+2024-12-06 11:19:46.959 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:46.965 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:19:46.973 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:19:46.980 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:19:46.984 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:19:46.986 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:19:46.988 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 19.2387ms
+2024-12-06 11:19:46.990 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:19:46.993 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/90 - 404 null application/json; charset=utf-8 78.1153ms
+2024-12-06 11:19:53.554 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/all - null null
+2024-12-06 11:19:53.569 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetAllUsers (BankApplication)'
+2024-12-06 11:19:53.590 +04:00 [INF] Route matched with {action = "GetAllUsers", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:19:53.612 +04:00 [INF] Fetching all users
+2024-12-06 11:19:53.640 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+2024-12-06 11:19:53.692 +04:00 [INF] Executing OkObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[System.Collections.Generic.IEnumerable`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:19:53.703 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetAllUsers (BankApplication) in 101.3021ms
+2024-12-06 11:19:53.705 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetAllUsers (BankApplication)'
+2024-12-06 11:19:53.707 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/all - 200 null application/json; charset=utf-8 154.2186ms
+2024-12-06 11:20:04.657 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Customer - application/json 147
+2024-12-06 11:20:04.666 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:20:04.667 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:20:04.670 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:20:04.681 +04:00 [INF] Route matched with {action = "AddUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(BankApplication.Entity.CustomerEntity) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:20:04.939 +04:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:20:04.948 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.AddUser (BankApplication) in 264.0104ms
+2024-12-06 11:20:04.951 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:20:04.953 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Customer - 400 null application/json; charset=utf-8 298.2281ms
+2024-12-06 11:20:48.524 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7131/api/Customer/update-balance/90 - application/json 1
+2024-12-06 11:20:48.541 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:20:48.542 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:20:48.546 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.UpdateUserBalance (BankApplication)'
+2024-12-06 11:20:48.561 +04:00 [INF] Route matched with {action = "UpdateUserBalance", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateUserBalance(Int32, System.Decimal) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:20:48.584 +04:00 [INF] Fetching user with ID 90
+2024-12-06 11:20:48.621 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:20:48.626 +04:00 [WRN] User with ID 90 not found
+2024-12-06 11:20:48.637 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:20:48.642 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.UpdateUserBalance (BankApplication) in 76.6683ms
+2024-12-06 11:20:48.646 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.UpdateUserBalance (BankApplication)'
+2024-12-06 11:20:48.656 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7131/api/Customer/update-balance/90 - 404 null application/json; charset=utf-8 131.929ms
+2024-12-06 11:21:01.932 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7131/api/Customer/delete/101 - null null
+2024-12-06 11:21:01.939 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:21:01.941 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:21:01.946 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication)'
+2024-12-06 11:21:01.956 +04:00 [INF] Route matched with {action = "DeleteUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:21:01.966 +04:00 [INF] Fetching user with ID 101
+2024-12-06 11:21:01.993 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:21:02.014 +04:00 [WRN] User with ID 101 not found
+2024-12-06 11:21:02.020 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:21:02.026 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication) in 66.5232ms
+2024-12-06 11:21:02.030 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication)'
+2024-12-06 11:21:02.035 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7131/api/Customer/delete/101 - 404 null application/json; charset=utf-8 102.3489ms
+2024-12-06 11:21:06.374 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7131/api/Customer/delete/101 - null null
+2024-12-06 11:21:06.379 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:21:06.382 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:21:06.391 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication)'
+2024-12-06 11:21:06.394 +04:00 [INF] Route matched with {action = "DeleteUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:21:06.404 +04:00 [INF] Fetching user with ID 101
+2024-12-06 11:21:06.415 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:21:06.421 +04:00 [WRN] User with ID 101 not found
+2024-12-06 11:21:06.423 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:21:06.426 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication) in 27.1508ms
+2024-12-06 11:21:06.430 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.DeleteUser (BankApplication)'
+2024-12-06 11:21:06.431 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7131/api/Customer/delete/101 - 404 null application/json; charset=utf-8 57.1792ms
+2024-12-06 11:22:09.733 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:22:10.149 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:22:10.151 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:22:10.256 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:22:10.259 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:22:10.260 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:22:11.611 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:22:12.081 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 486.4949ms
+2024-12-06 11:22:12.184 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:22:12.185 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:22:12.185 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:22:12.249 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 64.3538ms
+2024-12-06 11:22:12.257 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 71.6451ms
+2024-12-06 11:22:12.440 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 254.415ms
+2024-12-06 11:22:12.613 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:22:12.708 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.7139ms
+2024-12-06 11:22:14.257 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:22:14.274 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 17.6196ms
+2024-12-06 11:22:15.690 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:22:15.731 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.8532ms
+2024-12-06 11:22:17.662 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:22:17.672 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 10.4063ms
+2024-12-06 11:22:18.023 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:22:18.039 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.6125ms
+2024-12-06 11:22:20.191 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:22:20.199 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 8.1433ms
+2024-12-06 11:22:20.455 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:22:20.479 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5542ms
+2024-12-06 11:22:35.915 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:22:35.968 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:22:35.975 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:22:36.177 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:22:36.250 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:22:38.533 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:22:41.557 +04:00 [INF] Executed DbCommand (385ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:22:42.367 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:22:42.494 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:22:42.547 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:22:42.586 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:22:42.642 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:22:42.676 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:22:42.696 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:22:42.804 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:22:43.367 +04:00 [INF] Executed DbCommand (117ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:22:43.627 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:22:43.698 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 7427.6971ms
+2024-12-06 11:22:43.704 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:22:43.741 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 7826.373ms
+2024-12-06 11:23:09.614 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Customer - application/json 147
+2024-12-06 11:23:09.630 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:23:09.631 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:23:09.808 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:09.829 +04:00 [INF] Route matched with {action = "AddUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(BankApplication.Entity.CustomerEntity) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:23:10.047 +04:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:23:10.062 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.AddUser (BankApplication) in 227.1816ms
+2024-12-06 11:23:10.066 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:10.070 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Customer - 400 null application/json; charset=utf-8 457.1972ms
+2024-12-06 11:23:17.365 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Customer - application/json 147
+2024-12-06 11:23:17.374 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:23:17.375 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:23:17.422 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:17.424 +04:00 [INF] Route matched with {action = "AddUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(BankApplication.Entity.CustomerEntity) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:23:17.564 +04:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:23:17.577 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.AddUser (BankApplication) in 149.0271ms
+2024-12-06 11:23:17.587 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:17.591 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Customer - 400 null application/json; charset=utf-8 226.579ms
+2024-12-06 11:23:21.783 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Customer - application/json 147
+2024-12-06 11:23:21.790 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:23:21.791 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:23:21.796 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:21.798 +04:00 [INF] Route matched with {action = "AddUser", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(BankApplication.Entity.CustomerEntity) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:23:21.808 +04:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-06 11:23:21.810 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.AddUser (BankApplication) in 5.4133ms
+2024-12-06 11:23:21.813 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.AddUser (BankApplication)'
+2024-12-06 11:23:21.814 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Customer - 400 null application/json; charset=utf-8 32.7199ms
+2024-12-06 11:30:10.126 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:30:10.914 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:30:10.916 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:30:11.074 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:30:11.262 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:30:11.271 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:30:13.723 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:30:15.153 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 1446.2357ms
+2024-12-06 11:30:15.453 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:30:15.464 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:30:15.492 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:30:15.518 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 57.1019ms
+2024-12-06 11:30:15.598 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 144.928ms
+2024-12-06 11:30:15.663 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.9849ms
+2024-12-06 11:30:15.895 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:30:16.240 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 345.0528ms
+2024-12-06 11:30:37.087 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:30:37.142 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:30:37.165 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:30:37.384 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:30:37.458 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:30:40.080 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:30:43.341 +04:00 [INF] Executed DbCommand (405ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:30:44.250 +04:00 [INF] Executed DbCommand (29ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:30:44.322 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:30:44.381 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:30:44.413 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:30:44.439 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:30:44.454 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:30:44.470 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:30:44.577 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:30:45.216 +04:00 [INF] Executed DbCommand (212ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:30:45.679 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:30:45.740 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 8263.4995ms
+2024-12-06 11:30:45.749 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:30:45.782 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 8697.4401ms
+2024-12-06 11:31:07.004 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:31:07.194 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:31:07.210 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:31:07.240 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:31:07.566 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:31:07.577 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:31:07.585 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:31:07.609 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 395.1037ms
+2024-12-06 11:31:07.617 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:31:07.622 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 626.7525ms
+2024-12-06 11:31:10.572 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:31:10.630 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:31:10.633 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:31:10.645 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:31:10.698 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:31:10.704 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:31:10.980 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:31:10.984 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 346.8418ms
+2024-12-06 11:31:10.987 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:31:10.991 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 420.3938ms
+2024-12-06 11:33:05.504 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:33:05.888 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:33:05.890 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:33:05.955 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:33:05.957 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:33:05.958 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:33:07.335 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:33:07.872 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 556.2032ms
+2024-12-06 11:33:08.003 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:33:08.005 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:33:08.006 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:33:08.037 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 31.9759ms
+2024-12-06 11:33:08.065 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 62.2909ms
+2024-12-06 11:33:08.230 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 223.8897ms
+2024-12-06 11:33:08.361 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:33:08.470 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.9879ms
+2024-12-06 11:33:10.414 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:33:10.421 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 7.3954ms
+2024-12-06 11:33:11.915 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:33:11.950 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.7803ms
+2024-12-06 11:33:26.652 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:33:26.680 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:33:26.682 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:33:26.843 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:33:26.937 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:33:29.670 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:33:32.476 +04:00 [INF] Executed DbCommand (382ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:33:33.460 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:33:33.578 +04:00 [INF] Executed DbCommand (36ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:33:33.635 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:33:33.682 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:33:33.729 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:33:33.764 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:33:33.778 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:33:33.866 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:33:34.348 +04:00 [INF] Executed DbCommand (106ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:33:34.608 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:33:34.666 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 7713.4176ms
+2024-12-06 11:33:34.670 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:33:34.690 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 8037.3528ms
+2024-12-06 11:33:51.666 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/98 - null null
+2024-12-06 11:33:51.892 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:33:51.913 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:34:41.592 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:34:41.927 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:34:41.930 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:34:42.014 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:34:42.017 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:34:42.020 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:34:43.576 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:34:44.140 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 586.9559ms
+2024-12-06 11:34:44.245 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:34:44.248 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:34:44.249 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:34:44.270 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 21.2696ms
+2024-12-06 11:34:44.282 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 37.4854ms
+2024-12-06 11:34:44.440 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 190.8693ms
+2024-12-06 11:34:44.598 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:34:44.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.9995ms
+2024-12-06 11:34:45.187 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:34:45.194 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 7.5235ms
+2024-12-06 11:34:45.447 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:34:45.460 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6795ms
+2024-12-06 11:35:06.368 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:35:06.388 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:35:06.391 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:35:06.589 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:35:06.695 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:35:08.942 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:35:11.946 +04:00 [INF] Executed DbCommand (508ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:35:12.841 +04:00 [INF] Executed DbCommand (102ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:35:13.002 +04:00 [INF] Executed DbCommand (67ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:35:13.051 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:35:13.095 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:35:13.128 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:35:13.143 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:35:13.155 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:35:13.260 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:35:13.781 +04:00 [INF] Executed DbCommand (159ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:35:14.036 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:35:14.102 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 7391.4001ms
+2024-12-06 11:35:14.107 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:35:14.139 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 7770.7163ms
+2024-12-06 11:35:34.862 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:35:35.085 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:35:35.109 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:35:35.142 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:35:35.402 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:35:35.410 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:35:35.419 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:35:35.462 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 348.9094ms
+2024-12-06 11:35:35.465 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:35:35.468 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 607.7045ms
+2024-12-06 11:36:01.693 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:36:02.159 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:36:02.164 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:36:02.273 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:36:02.277 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:36:02.278 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:36:03.916 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:36:04.452 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 551.5182ms
+2024-12-06 11:36:04.644 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:36:04.656 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:36:04.659 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:36:04.742 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 86.0091ms
+2024-12-06 11:36:04.766 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 123.189ms
+2024-12-06 11:36:04.861 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.116ms
+2024-12-06 11:36:05.022 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:36:05.122 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.0679ms
+2024-12-06 11:36:05.651 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:36:05.657 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 6.5543ms
+2024-12-06 11:36:06.126 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:36:06.149 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.9761ms
+2024-12-06 11:36:26.686 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:36:26.714 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:36:26.722 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:36:27.000 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:36:27.081 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:36:29.717 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:36:33.143 +04:00 [INF] Executed DbCommand (553ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:36:34.144 +04:00 [INF] Executed DbCommand (35ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:36:34.244 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:36:34.301 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:36:34.336 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:36:34.378 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:36:34.401 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:36:34.411 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:36:34.530 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:36:35.050 +04:00 [INF] Executed DbCommand (113ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:36:35.258 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:36:35.325 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 8219.7639ms
+2024-12-06 11:36:35.336 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:36:35.361 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 8675.7936ms
+2024-12-06 11:36:51.832 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:36:52.097 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:36:52.109 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:36:52.135 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:36:52.434 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:36:52.447 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:36:52.492 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:36:52.535 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 423.6945ms
+2024-12-06 11:36:52.552 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:36:52.560 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 732.2184ms
+2024-12-06 11:38:49.128 +04:00 [INF] User profile is available. Using 'C:\Users\acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 11:38:49.617 +04:00 [INF] Now listening on: https://localhost:7131
+2024-12-06 11:38:49.620 +04:00 [INF] Now listening on: http://localhost:5299
+2024-12-06 11:38:49.723 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 11:38:49.745 +04:00 [INF] Hosting environment: Development
+2024-12-06 11:38:49.754 +04:00 [INF] Content root path: C:\Users\acer\source\repos\BankApplication\BankApplication
+2024-12-06 11:38:51.031 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.html - null null
+2024-12-06 11:38:51.522 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.html - 200 null text/html;charset=utf-8 477.7794ms
+2024-12-06 11:38:51.627 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 11:38:51.638 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/index.js - null null
+2024-12-06 11:38:51.666 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/_vs/browserLink - null null
+2024-12-06 11:38:51.759 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/index.js - 200 null application/javascript;charset=utf-8 120.9503ms
+2024-12-06 11:38:51.769 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 142.2913ms
+2024-12-06 11:38:51.944 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/_vs/browserLink - 200 null text/javascript; charset=UTF-8 277.3647ms
+2024-12-06 11:38:52.074 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - null null
+2024-12-06 11:38:52.186 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.7308ms
+2024-12-06 11:39:10.442 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7131/api/Account/login - application/json 73
+2024-12-06 11:39:10.462 +04:00 [INF] CORS policy execution failed.
+2024-12-06 11:39:10.465 +04:00 [INF] Request origin https://localhost:7131 does not have permission to access the resource.
+2024-12-06 11:39:10.675 +04:00 [INF] Executing endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:39:10.777 +04:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BankApplication.Models.account.LoginRequest) on controller BankApplication.Controller.account.AccountController (BankApplication).
+2024-12-06 11:39:13.413 +04:00 [WRN] No type was specified for the decimal property 'Balance' on entity type 'CustomerEntity'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+2024-12-06 11:39:16.761 +04:00 [INF] Executed DbCommand (455ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:39:17.735 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:39:17.853 +04:00 [INF] Executed DbCommand (37ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:39:17.915 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:39:17.959 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedEmail" = :normalizedEmail_0
+FETCH FIRST 2 ROWS ONLY
+2024-12-06 11:39:17.991 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[:user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."ClaimType", "a"."ClaimValue", "a"."UserId"
+FROM "AspNetUserClaims" "a"
+WHERE "a"."UserId" = :user_Id_0
+2024-12-06 11:39:18.018 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[:userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a0"."Name"
+FROM "AspNetUserRoles" "a"
+INNER JOIN "AspNetRoles" "a0" ON "a"."RoleId" = "a0"."Id"
+WHERE "a"."UserId" = :userId_0
+2024-12-06 11:39:18.033 +04:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-06 11:39:18.129 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PersonName", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."RefreshToken", "a"."RefreshTokenExpirationDateTime", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" "a"
+WHERE "a"."NormalizedUserName" = :normalizedUserName_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:39:18.487 +04:00 [INF] Executed DbCommand (70ms) [Parameters=[:p17='?' (Size = 450), :p0='?' (DbType = Int32), :p1='?' (Size = 2000), :p18='?' (Size = 2000), :p2='?' (Size = 256), :p3='?' (DbType = Byte), :p4='?' (DbType = Byte), :p5='?' (DbType = DateTime), :p6='?' (Size = 256), :p7='?' (Size = 256), :p8='?' (Size = 2000), :p9='?' (Size = 2000), :p10='?' (Size = 2000), :p11='?' (DbType = Byte), :p12='?' (Size = 2000), :p13='?' (DbType = DateTime), :p14='?' (Size = 2000), :p15='?' (DbType = Byte), :p16='?' (Size = 256), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "AspNetUsers" SET "AccessFailedCount" = :p0, "ConcurrencyStamp" = :p1, "Email" = :p2, "EmailConfirmed" = :p3, "LockoutEnabled" = :p4, "LockoutEnd" = :p5, "NormalizedEmail" = :p6, "NormalizedUserName" = :p7, "PasswordHash" = :p8, "PersonName" = :p9, "PhoneNumber" = :p10, "PhoneNumberConfirmed" = :p11, "RefreshToken" = :p12, "RefreshTokenExpirationDateTime" = :p13, "SecurityStamp" = :p14, "TwoFactorEnabled" = :p15, "UserName" = :p16
+WHERE "Id" = :p17 AND "ConcurrencyStamp" = :p18;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2024-12-06 11:39:18.654 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[Microsoft.Extensions.Localization.LocalizedString, Microsoft.Extensions.Localization.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60],[BankApplication.DTO.AuthenticationResponse, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:39:18.709 +04:00 [INF] Executed action BankApplication.Controller.account.AccountController.Login (BankApplication) in 7919.3439ms
+2024-12-06 11:39:18.714 +04:00 [INF] Executed endpoint 'BankApplication.Controller.account.AccountController.Login (BankApplication)'
+2024-12-06 11:39:18.735 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7131/api/Account/login - 200 null application/json; charset=utf-8 8293.0872ms
+2024-12-06 11:39:39.669 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:39:39.845 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:39.871 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:39:39.911 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:39:40.156 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:39:40.168 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:39:40.188 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:39:40.215 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 335.1585ms
+2024-12-06 11:39:40.223 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:40.236 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 566.9804ms
+2024-12-06 11:39:43.011 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:39:43.048 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:43.050 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:39:43.061 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:39:43.109 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:39:43.121 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:39:43.217 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:39:43.222 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 169.0871ms
+2024-12-06 11:39:43.230 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:43.236 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 224.5025ms
+2024-12-06 11:39:45.244 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/99 - null null
+2024-12-06 11:39:45.250 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:45.259 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:39:45.278 +04:00 [INF] Fetching user with ID 99
+2024-12-06 11:39:45.292 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:39:45.305 +04:00 [WRN] User with ID 99 not found
+2024-12-06 11:39:45.313 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:39:45.316 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 50.3665ms
+2024-12-06 11:39:45.319 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:39:45.321 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/99 - 404 null application/json; charset=utf-8 76.8493ms
+2024-12-06 11:42:51.344 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7131/api/Customer/1 - null null
+2024-12-06 11:42:51.358 +04:00 [INF] Executing endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:42:51.361 +04:00 [INF] Route matched with {action = "GetUserById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller BankApplication.Controller.customer.CustomerController (BankApplication).
+2024-12-06 11:42:51.372 +04:00 [INF] Fetching user with ID 1
+2024-12-06 11:42:51.568 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[:p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "c"."Id", "c"."Address", "c"."Balance", "c"."Email", "c"."FINCode", "c"."FullName", "c"."PhoneNumber"
+FROM "Customers" "c"
+WHERE "c"."Id" = :p_0
+FETCH FIRST 1 ROWS ONLY
+2024-12-06 11:42:51.671 +04:00 [INF] Executing OkObjectResult, writing value of type 'TaskApi.Response.ResponseModel`1[[BankApplication.Entity.CustomerEntity, BankApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-06 11:42:51.690 +04:00 [INF] Executed action BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication) in 324.4812ms
+2024-12-06 11:42:51.694 +04:00 [INF] Executed endpoint 'BankApplication.Controller.customer.CustomerController.GetUserById (BankApplication)'
+2024-12-06 11:42:51.697 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7131/api/Customer/1 - 200 null application/json; charset=utf-8 354.2448ms

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+
+	<!-- Resource metadata -->
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+	</resheader>
+
+	<!-- Resource entries -->
+	<data name="UserNotFound" xml:space="preserve">
+    <value>Usuario con ID {0} no encontrado.</value>
+  </data>
+	<data name="AllUsersFetched" xml:space="preserve">
+    <value>Todos los usuarios se han recuperado correctamente.</value>
+  </data>
+	<data name="UserCreated" xml:space="preserve">
+    <value>Usuario con ID {0} ha sido creado con éxito.</value>
+  </data>
+	<data name="BalanceUpdated" xml:space="preserve">
+    <value>El saldo del usuario con ID {0} se ha actualizado correctamente.</value>
+  </data>
+	<data name="UserDeleted" xml:space="preserve">
+    <value>Usuario con ID {0} ha sido eliminado con éxito.</value>
+  </data>
+	<data name="TestExceptionMessage" xml:space="preserve">
+    <value>Esta es una excepción de prueba para activar el middleware.</value>
+  </data>
+</root>
+
+

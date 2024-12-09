@@ -1,0 +1,20 @@
+[2024-11-26 12:20:25 INF] Fetching user with ID 45
+[2024-11-26 12:20:28 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-26 12:21:08 INF] Fetching user with ID 90
+[2024-11-26 12:21:08 WRN] User with ID 90 not found
+[2024-11-26 14:29:09 INF] Fetching user with ID 90
+[2024-11-26 14:29:09 WRN] User with ID 90 not found
+[2024-11-26 14:29:15 INF] Fetching user with ID 90
+[2024-11-26 14:29:15 WRN] User with ID 90 not found
+[2024-11-26 15:24:41 INF] Fetching user with ID 48
+[2024-11-26 15:24:44 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-26 15:24:48 WRN] User with ID 48 not found
+[2024-11-26 15:25:01 INF] Fetching user with ID 90
+[2024-11-26 15:25:01 WRN] User with ID 90 not found
+[2024-11-26 15:25:21 INF] Fetching all users
+[2024-11-26 15:42:55 INF] Fetching user with ID 90
+[2024-11-26 15:42:56 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-26 15:43:00 WRN] User with ID 90 not found
+[2024-11-26 17:57:14 INF] Fetching user with ID 90
+[2024-11-26 17:57:16 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-26 17:57:20 WRN] User with ID 90 not found

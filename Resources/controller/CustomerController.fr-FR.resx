@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+
+	<!-- Resource metadata -->
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+	</resheader>
+
+	<!-- Resource entries -->
+	<data name="UserNotFound" xml:space="preserve">
+    <value>Utilisateur avec l'ID {0} est introuvable.</value>
+  </data>
+	<data name="AllUsersFetched" xml:space="preserve">
+    <value>Tous les utilisateurs ont été récupérés avec succès.</value>
+  </data>
+	<data name="UserCreated" xml:space="preserve">
+    <value>Utilisateur avec l'ID {0} a été créé avec succès.</value>
+  </data>
+	<data name="BalanceUpdated" xml:space="preserve">
+    <value>Le solde de l'utilisateur avec l'ID {0} a été mis à jour avec succès.</value>
+  </data>
+	<data name="UserDeleted" xml:space="preserve">
+    <value>Utilisateur avec l'ID {0} a été supprimé avec succès.</value>
+  </data>
+	<data name="TestExceptionMessage" xml:space="preserve">
+    <value>Ceci est une exception de test pour déclencher le middleware.</value>
+  </data>
+</root>

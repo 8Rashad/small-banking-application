@@ -1,0 +1,76 @@
+[2024-11-25 10:47:42 INF] Fetching user with ID 78
+[2024-11-25 10:47:46 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 10:47:49 WRN] User with ID 78 not found
+[2024-11-25 10:54:24 INF] Fetching user with ID 78
+[2024-11-25 10:54:25 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 10:54:27 WRN] User with ID 78 not found
+[2024-11-25 10:57:18 INF] Fetching user with ID 67
+[2024-11-25 10:57:18 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 10:57:20 WRN] User with ID 67 not found
+[2024-11-25 11:18:58 INF] Fetching user with ID 78
+[2024-11-25 11:18:59 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 11:19:01 WRN] User with ID 78 not found
+[2024-11-25 11:19:47 INF] Fetching user with ID 56
+[2024-11-25 11:19:47 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 11:19:49 WRN] User with ID 56 not found
+[2024-11-25 11:25:12 INF] Fetching user with ID 2
+[2024-11-25 11:25:12 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-25 11:25:22 INF] Fetching user with ID 78
+[2024-11-25 11:25:22 WRN] User with ID 78 not found
+[2024-11-25 11:25:56 INF] Fetching user with ID 78
+[2024-11-25 11:25:56 WRN] User with ID 78 not found
+[2024-11-25 12:12:25 INF] Fetching user with ID 67
+[2024-11-25 12:12:26 WRN] User with ID 67 not found
+[2024-11-25 12:28:33 INF] Fetching user with ID 56
+[2024-11-25 12:28:36 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 12:28:40 WRN] User with ID 56 not found
+[2024-11-25 12:46:19 INF] Fetching user with ID 67
+[2024-11-25 12:46:21 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 12:46:24 WRN] User with ID 67 not found
+[2024-11-25 14:31:39 INF] Fetching user with ID 87
+[2024-11-25 14:31:41 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 14:31:46 WRN] User with ID 87 not found
+[2024-11-25 15:27:19 INF] Fetching user with ID 56
+[2024-11-25 15:27:21 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 15:27:25 WRN] User with ID 56 not found
+[2024-11-25 15:57:52 INF] Fetching user with ID 98
+[2024-11-25 15:57:53 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 15:57:55 WRN] User with ID 98 not found
+[2024-11-25 15:58:11 INF] Fetching user with ID 98
+[2024-11-25 15:58:11 WRN] User with ID 98 not found
+[2024-11-25 15:58:12 INF] Fetching user with ID 98
+[2024-11-25 15:58:12 WRN] User with ID 98 not found
+[2024-11-25 15:58:12 INF] Fetching user with ID 98
+[2024-11-25 15:58:12 WRN] User with ID 98 not found
+[2024-11-25 15:58:12 INF] Fetching user with ID 98
+[2024-11-25 15:58:12 WRN] User with ID 98 not found
+[2024-11-25 15:59:46 INF] Fetching user with ID 56
+[2024-11-25 15:59:46 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 15:59:51 WRN] User with ID 56 not found
+[2024-11-25 15:59:56 INF] Fetching user with ID 56
+[2024-11-25 15:59:56 WRN] User with ID 56 not found
+[2024-11-25 16:00:01 INF] Fetching user with ID 56
+[2024-11-25 16:00:01 WRN] User with ID 56 not found
+[2024-11-25 16:00:07 INF] Fetching user with ID 56
+[2024-11-25 16:00:07 WRN] User with ID 56 not found
+[2024-11-25 16:00:10 INF] Fetching user with ID 56
+[2024-11-25 16:00:10 WRN] User with ID 56 not found
+[2024-11-25 16:01:43 INF] Fetching user with ID 45
+[2024-11-25 16:01:44 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 16:01:52 INF] Fetching user with ID 78
+[2024-11-25 16:01:52 WRN] User with ID 78 not found
+[2024-11-25 16:02:40 INF] Fetching user with ID 67
+[2024-11-25 16:02:41 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-25 16:02:42 WRN] User with ID 67 not found
+[2024-11-25 16:02:46 INF] Fetching user with ID 67
+[2024-11-25 16:02:46 WRN] User with ID 67 not found
+[2024-11-25 17:28:42 INF] Fetching user with ID 57
+[2024-11-25 17:28:45 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-25 17:28:49 WRN] User with ID 57 not found
+[2024-11-25 17:29:07 INF] Fetching user with ID 78
+[2024-11-25 17:29:08 WRN] User with ID 78 not found
+[2024-11-25 17:29:14 INF] Fetching user with ID 78
+[2024-11-25 17:29:14 WRN] User with ID 78 not found
+[2024-11-25 17:29:24 INF] Fetching user with ID 78
+[2024-11-25 17:29:24 WRN] User with ID 78 not found
+[2024-11-25 17:29:39 INF] Fetching all users

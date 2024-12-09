@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+	</resheader>
+	<data name="FullNameRequired" xml:space="preserve">
+    <value>Full Name is required.</value>
+  </data>
+	<data name="InvalidEmail" xml:space="preserve">
+    <value>Email format is incorrect.</value>
+  </data>
+	<data name="PhoneNumberRequired" xml:space="preserve">
+    <value>Phone number is required.</value>
+  </data>
+	<data name="PhoneNumberFormat" xml:space="preserve">
+    <value>Phone number must start with '+994' followed by 9 digits.</value>
+  </data>
+	<data name="AddressRequired" xml:space="preserve">
+    <value>Address should not be empty.</value>
+  </data>
+	<data name="BalanceGreaterThanZero" xml:space="preserve">
+    <value>Balance must be greater than 0.</value>
+  </data>
+	<data name="BalanceCannotBeNull" xml:space="preserve">
+    <value>Balance cannot be null.</value>
+  </data>
+	<data name="FINCodeRequired" xml:space="preserve">
+    <value>FIN code is required.</value>
+  </data>
+	<data name="FINCodeLength" xml:space="preserve">
+    <value>FIN code must be exactly 7 characters long.</value>
+  </data>
+	<data name="FINCodeFormat" xml:space="preserve">
+    <value>FIN code must contain only uppercase letters and numbers.</value>
+  </data>
+</root>

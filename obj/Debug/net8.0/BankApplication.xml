@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankApplication</name>
+    </assembly>
+    <members>
+        <member name="M:BankApplication.Controller.account.AccountController.Register(BankApplication.Models.account.RegisterRequest)">
+            <summary>
+            Registers a new user in the system.
+            </summary>
+            <param name="registerDTO">The data transfer object containing user registration details.</param>
+            <returns>A response with the authentication details if successful, or an error message otherwise.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.account.AccountController.IsEmailRegistered(System.String)">
+            <summary>
+            Checks if an email address is already registered.
+            </summary>
+            <param name="email">The email address to check.</param>
+            <returns>A response indicating whether the email is already registered.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.account.AccountController.Login(BankApplication.Models.account.LoginRequest)">
+            <summary>
+            Logs in a user using their email and password.
+            </summary>
+            <param name="loginDTO">The data transfer object containing login details.</param>
+            <returns>A response with the authentication details if successful, or an error message otherwise.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.account.AccountController.Logout">
+            <summary>
+            Logs out the currently authenticated user.
+            </summary>
+            <returns>A 204 No Content response.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.customer.CustomerController.GetUserById(System.Int32)">
+            <summary>
+            Gets a user by their ID.
+            </summary>
+            <param name="id"> The ID of the user.</param>
+            <returns>The user object if found, otherwise, a  404 response.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.customer.CustomerController.GetAllUsers">
+            <summary>
+            Gets a list of all users.
+            </summary>
+            <returns>A list of user objects.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.customer.CustomerController.AddUser(BankApplication.Entity.CustomerEntity)">
+            <summary>
+            Add a new user.
+            </summary>
+            <param name="user">The user object to add.</param>
+            <returns>The created user object with a 201 status code.</returns>
+        </member>
+        <member name="M:BankApplication.Controller.customer.CustomerController.UpdateUserBalance(System.Int32,System.Decimal)">
+            <summary>
+            Updates the balance of a user.
+            </summary>
+            <param name="id">The ID of the user to update</param>
+            <param name="newBalance">The new balance value.</param>
+            <returns>A success message if the update is successful</returns>
+        </member>
+        <member name="M:BankApplication.Controller.customer.CustomerController.DeleteUser(System.Int32)">
+            <summary>
+            Deletes a user by their ID.
+            </summary>
+            <param name="id">The ID of the user to delete.</param>
+            <returns>A success message if the user is deleted successfully</returns>
+        </member>
+        <member name="T:BankApplication.Migrations.AddLatestNewMigrations">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApplication.Migrations.AddLatestNewMigrations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApplication.Migrations.AddLatestNewMigrations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BankApplication.Migrations.AddLatestNewMigrations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

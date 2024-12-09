@@ -1,0 +1,397 @@
+[2024-11-23 12:27:34 INF] Fetching all users
+[2024-11-23 12:27:37 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 12:43:31 INF] Fetching user with ID 89
+[2024-11-23 12:43:32 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 12:43:35 WRN] User with ID 89 not found
+[2024-11-23 12:43:50 INF] Fetching user with ID 89
+[2024-11-23 12:43:50 WRN] User with ID 89 not found
+[2024-11-23 12:45:07 INF] Fetching all users
+[2024-11-23 12:45:53 INF] Fetching user with ID 89
+[2024-11-23 12:45:53 WRN] User with ID 89 not found
+[2024-11-23 12:51:28 INF] Fetching user with ID 76
+[2024-11-23 12:51:29 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 12:51:32 WRN] User with ID 76 not found
+[2024-11-23 12:51:37 INF] Fetching user with ID 76
+[2024-11-23 12:51:37 WRN] User with ID 76 not found
+[2024-11-23 12:51:39 INF] Fetching user with ID 76
+[2024-11-23 12:51:39 WRN] User with ID 76 not found
+[2024-11-23 12:52:35 INF] Fetching user with ID 90
+[2024-11-23 12:52:36 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 12:52:40 WRN] User with ID 90 not found
+[2024-11-23 12:52:48 INF] Fetching user with ID 25
+[2024-11-23 12:52:48 WRN] User with ID 25 not found
+[2024-11-23 12:52:51 INF] Fetching user with ID 2
+[2024-11-23 12:53:01 INF] Fetching user with ID 67
+[2024-11-23 12:53:01 WRN] User with ID 67 not found
+[2024-11-23 13:13:36 INF] Fetching user with ID 68
+[2024-11-23 13:13:36 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 13:13:38 WRN] User with ID 68 not found
+[2024-11-23 13:13:43 INF] Fetching user with ID 68
+[2024-11-23 13:13:43 WRN] User with ID 68 not found
+[2024-11-23 13:13:49 INF] Fetching user with ID 68
+[2024-11-23 13:13:49 WRN] User with ID 68 not found
+[2024-11-23 13:13:50 INF] Fetching user with ID 68
+[2024-11-23 13:13:50 WRN] User with ID 68 not found
+[2024-11-23 13:13:53 INF] Fetching user with ID 68
+[2024-11-23 13:13:53 WRN] User with ID 68 not found
+[2024-11-23 13:20:35 INF] Fetching user with ID 78
+[2024-11-23 13:20:36 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-23 13:20:38 WRN] User with ID 78 not found
+[2024-11-23 13:34:47 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:34:47 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:34:59 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:34:59 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:00 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:00 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:43 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:43 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:49 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:35:49 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:36:19 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:36:19 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:37:26 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:37:26 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:37:30 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:37:30 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:39:13 ERR] Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:39:13 ERR] An unhandled exception occured
+System.InvalidOperationException: Unable to resolve service for type 'BankApplication.Service.LocalizationService.ILocalizationService' while attempting to activate 'BankApplication.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at BankApplication.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\ExceptionMiddleware.cs:line 23
+[2024-11-23 13:40:33 INF] Fetching user with ID 45
+[2024-11-23 13:40:33 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 13:40:43 INF] Fetching user with ID 78
+[2024-11-23 13:40:44 WRN] User with ID 78 not found
+[2024-11-23 13:40:45 INF] Fetching user with ID 78
+[2024-11-23 13:40:45 WRN] User with ID 78 not found
+[2024-11-23 13:40:46 INF] Fetching user with ID 78
+[2024-11-23 13:40:46 WRN] User with ID 78 not found
+[2024-11-23 13:40:46 INF] Fetching user with ID 78
+[2024-11-23 13:40:46 WRN] User with ID 78 not found
+[2024-11-23 13:40:46 INF] Fetching user with ID 78
+[2024-11-23 13:40:46 WRN] User with ID 78 not found
+[2024-11-23 13:40:55 INF] Fetching user with ID 78
+[2024-11-23 13:40:55 WRN] User with ID 78 not found
+[2024-11-23 13:40:56 INF] Fetching user with ID 78
+[2024-11-23 13:40:56 WRN] User with ID 78 not found
+[2024-11-23 13:40:56 INF] Fetching user with ID 78
+[2024-11-23 13:40:56 WRN] User with ID 78 not found
+[2024-11-23 13:40:56 INF] Fetching user with ID 78
+[2024-11-23 13:40:56 WRN] User with ID 78 not found
+[2024-11-23 13:40:56 INF] Fetching user with ID 78
+[2024-11-23 13:40:56 WRN] User with ID 78 not found
+[2024-11-23 13:40:56 INF] Fetching user with ID 78
+[2024-11-23 13:40:56 WRN] User with ID 78 not found
+[2024-11-23 13:40:57 INF] Fetching user with ID 78
+[2024-11-23 13:40:57 WRN] User with ID 78 not found
+[2024-11-23 14:42:08 INF] Fetching user with ID 46
+[2024-11-23 14:42:11 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 14:42:15 WRN] User with ID 46 not found
+[2024-11-23 14:43:18 INF] Fetching user with ID 2
+[2024-11-23 14:43:20 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 14:43:30 INF] Fetching user with ID 86
+[2024-11-23 14:43:30 WRN] User with ID 86 not found
+[2024-11-23 14:58:23 INF] Fetching user with ID 56
+[2024-11-23 14:58:24 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-23 14:58:28 WRN] User with ID 56 not found
+[2024-11-23 14:59:06 INF] Fetching user with ID 46
+[2024-11-23 14:59:07 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 14:59:10 WRN] User with ID 46 not found
+[2024-11-23 15:22:49 ERR] An unhandled exception has occurred while executing the request.
+System.Globalization.CultureNotFoundException: Culture is not supported. (Parameter 'name')
+ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7 is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at BankApplication.Middlewares.LocalizationMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\LocalizationMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-11-23 15:22:50 ERR] An unhandled exception has occurred while executing the request.
+System.Globalization.CultureNotFoundException: Culture is not supported. (Parameter 'name')
+ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7 is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at BankApplication.Middlewares.LocalizationMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\LocalizationMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-11-23 15:22:50 ERR] An unhandled exception has occurred while executing the request.
+System.Globalization.CultureNotFoundException: Culture is not supported. (Parameter 'name')
+ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7 is an invalid culture identifier.
+   at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+   at BankApplication.Middlewares.LocalizationMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\acer\source\repos\BankApplication\BankApplication\Middlewares\LocalizationMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2024-11-23 15:25:14 INF] Fetching user with ID 89
+[2024-11-23 15:25:16 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 15:25:19 WRN] User with ID 89 not found
+[2024-11-23 15:26:57 INF] Fetching user with ID 78
+[2024-11-23 15:26:58 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 15:27:02 WRN] User with ID 78 not found
+[2024-11-23 15:42:19 INF] Fetching user with ID 87
+[2024-11-23 15:42:20 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 15:42:23 WRN] User with ID 87 not found
+[2024-11-23 16:44:25 INF] Fetching user with ID 36
+[2024-11-23 16:44:27 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 16:44:30 WRN] User with ID 36 not found
+[2024-11-23 16:44:34 INF] Fetching user with ID 36
+[2024-11-23 16:44:34 WRN] User with ID 36 not found
+[2024-11-23 16:44:38 INF] Fetching user with ID 36
+[2024-11-23 16:44:38 WRN] User with ID 36 not found
+[2024-11-23 16:56:05 INF] Fetching user with ID 48
+[2024-11-23 16:56:07 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 16:56:10 WRN] User with ID 48 not found
+[2024-11-23 17:10:36 INF] Fetching user with ID 49
+[2024-11-23 17:10:37 WRN] The decimal property 'Balance' on entity type 'User' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2024-11-23 17:10:39 WRN] User with ID 49 not found
+[2024-11-23 17:31:59 INF] Fetching user with ID 49
+[2024-11-23 17:32:00 WRN] No type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+[2024-11-23 17:32:02 WRN] User with ID 49 not found
